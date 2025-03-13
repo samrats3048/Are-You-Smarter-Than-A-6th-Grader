@@ -1,0 +1,74 @@
+<!-- number symbol ( number sybol number) -->
+
+<!-- Done, do not touch -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <div class="top">
+            <h1>Level 2</h1>
+            <h2>Can You Solve It?</h2>
+            <p id="sub">You will be given an equation. Can you solve it?</p>
+            
+            <div class="game">
+                <!-- setting one? -->
+                    <!-- displays the equation -->
+                <div id="output"></div>
+    
+                <div id="setting1">
+    
+                    <input type="number" id="guess" placeholder="Enter Answer">
+                    <button onclick="checkGuess()">Submit Guess</button>
+                    <p id="feedback"></p>
+                     
+                    <div id="display_Scores">
+                        <strong> Score: </strong> <p id='scores' style="display:inline"></p>
+                        <span><p id="displayScores"></p></span>
+                    </div>
+                </div>
+
+
+                <div class="bigButtons">
+                    <div class="reset">
+                
+                        <button id="again" onclick="resetGame()">Play Again</button>
+            
+                    </div>
+                    
+
+                </div>
+               
+            </div>
+        </div>
+        <div class="bottom">
+            <h3>Struggling?</h3>
+           
+            <div class="flex">
+                <div class="explaination">
+                    
+                    <button onclick="explaination()">Explaination</button>
+                    <div id="display"></div>
+                </div>
+                <div class="backButton">
+                    <button id="back"><a href="index.html">Back</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+            
+        
+    <!-- ^this needs to be changed. -->
+    <script src="scriptLVL2.js">
+        
+    </script>
+</body>
+</html>
