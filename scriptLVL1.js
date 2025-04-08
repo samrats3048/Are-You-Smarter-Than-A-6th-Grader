@@ -114,7 +114,7 @@ function checkGuess() {
     }
     else{
       var message = 'ERROR';
-      alert(message);
+      console.log(message);
     }  
   }
  
